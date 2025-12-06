@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diego De La Pena's Portfolio</title>
+  <link rel="stylesheet" href="text/style.css" type="text/css">
+  <link rel="stylesheet" href="https://use.typekit.net/jwi4dnc.css">
+	<link rel="stylesheet" href="https://use.typekit.net/jwi4dnc.css">
+</head>
+
+<body>
+
+  <!--The header includes the shareholder name and site navigation on the home page.-->
+  
+  <header>    
+    <nav id="home">
+      <ul>
+				<li><a href="">PORTFOLIO</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+				<li><a href="#notes">NOTES</a></li>
+				<li><a href="#aboutme">ABOUT ME</a></li>
+				<li><a href="#contactme">CONTACT ME</a></li>
+      </ul>
+    </nav>
+
+  <!--Home-->
+
+    <div class="text-container">
+        <h1>Diego De La Pena</h1>
+    </div>
+  </header>
+
+
+  <!--The main section includes Projects, Notes, About Me, Contact Me.-->
+
+  <!--Projects-->
+  <section id="projects">
+    <div class="flex-container">
+      <div class="text-container">
+        <a href="#home"><h2>Projects</h2></a>
+            <a href="" class="cta-button">Project #1</a>
+            <a href="" class="cta-button">Project #2</a>
+            <a href="" class="cta-button">Project #3</a>
+      </div>
+    </div>
+  </section>
+  
+  <!--Notes-->
+  <section id="notes">
+    <a href="#home"><h2>Notes</h2></a>
+    <h3>MLS(ASCP), BOC</h3>
+    <div class="box-container">
+    <div class="box"><a href="../DD-Portoflio-V2/notes/Copyofinterim_mls_content_guideline_Jan2022.pdf" target="_blank">EXAMINATION CONTENT GUIDELINE 2022</a></div>
+    <div class="box">Hematology</div>
+    <div class="box">Clinical Chemistry</div>
+    <div class="box">Clinical Chemistry II</div>
+    <div class="box">Immunology</div>
+    </div>
+  </section>
+
+  <!--About Me-->
+  <section id="aboutme">
+    <a href="#home"><h2>About Me</h2></a>
+        <p>A medical laboratory scientist and an up-and-coming information systems analyst passionate about quality, reliable laboratory healthcare and information systems.</p>
+        <p>I have a strong track record of learning and using laboratory information systems (LIS) and software.</p>
+        <p>I got my Bachelor’s in Medical Laboratory Science at Virginia Commonwealth University.</p>
+        <p>Currently, I’m working towards an Associate of Applied Science in Information Systems Technology at Brightpoint Community College.</p>
+    <a href="https://www.linkedin.com/in/delapenadiego" target="blank" class="cta-button">Linkedin</a>
+  </section>
+
+  <!--Contact Me-->
+  <section id="contactme">
+
+  <div class="contact-form-container">
+  <a href="#home"><h2>Contact Me</h2></a>
+
+        <form id="contactForm">
+            <div class="form-group">
+                <input type="text" id="name" 
+                       name="name" 
+                       placeholder="Your Name" required>
+                <span class="error-message" id="nameError"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="email" id="email" 
+                       name="email" 
+                       placeholder="Your Email" required>
+                <span class="error-message" id="emailError"></span>
+            </div>
+
+            <div class="form-group">
+                <textarea id="message" 
+                          name="message" 
+                          placeholder="Your Message" 
+                          rows="5" required></textarea>
+                <span class="error-message" 
+                      id="messageError"></span>
+            </div>
+
+            <button type="submit" 
+                    class="submit-button">
+              Send Message
+            </button>
+        </form>
+    </div>
+    <script src="scripts.js"></script>
+
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Diego De La Pena</P>
+  </footer>
+
+</body>
+</html>
